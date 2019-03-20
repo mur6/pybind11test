@@ -1,4 +1,9 @@
 {
     "python.venvPath": ".venv",
-    "python.pythonPath": ".venv/bin/python3.7"
+    "python.pythonPath": ".venv/bin/python3.7",
+    "python.formatting.autopep8Path": "black",
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
 }
